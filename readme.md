@@ -1,3 +1,6 @@
+[https://unihiker.github.io](unihiker.github.io)
+
+
 
 ```bash
 pip install sphinx sphinx-markdown-tables sphinx-rtd-theme recommonmark sphinx-autobuild
@@ -10,8 +13,6 @@ nano conf.py
 
 make html
 make clean
-
-sphinx-autobuild -b html ./ build/html
 
 #https://www.codenong.com/88a32d94d700b33dc3ea/
 ```
