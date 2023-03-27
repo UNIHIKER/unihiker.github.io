@@ -1,0 +1,593 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>UNIHIKER FAQs &mdash; unihiker 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="1- Introduction" href="introduction-en.html" />
+    <link rel="prev" title="Getting Started with UNIHIKER" href="get-started-en.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> unihiker
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-en.html">Getting Started with UNIHIKER</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">FAQ</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">UNIHIKER FAQs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">———-</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#connection-os">1- Connection &amp; OS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-connect">|- How to connect ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-unihiker-cannot-be-connected-to-mind">|- The UNIHIKER cannot be connected to Mind+</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-update-the-system-time-if-the-siot-time-is-incorrect">|- How to update the system time if the SIOT time is incorrect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-shut-down">|- How to shut down</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-connect-a-bluetooth-speaker">|- How to connect a Bluetooth speaker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-choose-an-expansion-board-for-unihiker">|- How to choose an expansion board for UNIHIKER</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-should-i-do-if-the-screen-is-black-white-and-i-can-t-enter-the-system">|- What should I do if the screen is black/white and I can’t enter the system?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-can-i-get-the-mind-graphical-program-to-run-on-the-unihiker-after-disconnecting-it-from-my-computer">|- How can I get the Mind+ graphical program to run on the UNIHIKER after disconnecting it from my computer?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-can-i-upload-resource-files-such-as-images-required-for-my-program-to-unihiker">-How can I upload resource files (such as images) required for my program to UNIHIKER?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">———-</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errors-during-execution">2- Errors During Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#error-python3-can-t-open-file">|- Error: python3: can’t open file…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-python-library-failed-warning-retrying-errno-3">|- Installing Python library failed, Warning: Retrying…[Errno -3]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#error-nonetype-object-has-no-attribute-boardname">|-Error: ‘NoneType’ object has no attribute ‘boardname’</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#error-firmware-version-self-boardname-keyerror">|-Error: firmware_version[self.boardname]:KeyError:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#error-runtimeerror-analog-map-retrieval-time-out-or-the-readings-from-onboard-components-all-0">|-Error: RuntimeError: Analog map retrieval time out. or the readings from onboard components all 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">———-</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html">1- Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#features">2- Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#on-board-components">3- On-board Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#unihiker-system-framework">4- UNIHIKER System Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#specification">5- Specification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#board-overview">6- Board Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#dimension">7- Dimension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#svg-3d-file">8- SVG &amp; 3D File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#technical-discussion">9- Technical Discussion</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Advanced Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="networking-en.html">How to Connect the UNIHIKER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="homemenu-en.html">UNIHIKER Home Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webmenu-en.html">Local Webpage Service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="samba-en.html">SMB File Sharing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vnc-en.html">Remote Desktop (Screen Sharing)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">OS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="burner-en.html">Burn OS Image</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">unihiker</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>UNIHIKER FAQs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/src/faq-en.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="unihiker-faqs">
+<h1>UNIHIKER FAQs<a class="headerlink" href="#unihiker-faqs" title="Permalink to this heading">¶</a></h1>
+<font color="red">
+<big>This FAQ page is designed to help users quickly solve some frequently-asked questions when using the UNIHIKER. <br>Please refer to the<strong> Category </strong>on the left to see which<strong> category</strong> your problem falls under, or press <strong> CTRL+F </strong> to search the relevant keywords to look for the answer to your question. <br>If you cannot find any solutions to your problem, please email us at unihiker@dfrobot.com, or scan the QR code below to join the UNIHIKER  communication channel</big>
+</font><p><img alt="image-20230327105329064" src="../_images/image-20230327105329064.png" /></p>
+<section id="id1">
+<h2>———-<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="connection-os">
+<h2>1- Connection &amp; OS<a class="headerlink" href="#connection-os" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="how-to-connect">
+<h2>|- How to connect ?<a class="headerlink" href="#how-to-connect" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How do I get my UNIHIKER connected to a WiFi Internet?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can click <strong>Local Webpage Service</strong> to view how to connect your UNIHIKER to the Internet through UNIHIKER's local webpage. Or you can enable the hotspot of the UNIHIKER and connect your mobile phone to the hotspot, and then enter the local webpage to get UNIHIKER connected to a WiFi.</td>
+</tr>
+</tbody>
+</table></section>
+<hr class="docutils" />
+<section id="the-unihiker-cannot-be-connected-to-mind">
+<h2>|- The UNIHIKER cannot be connected to Mind+<a class="headerlink" href="#the-unihiker-cannot-be-connected-to-mind" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Q:</strong>  Why Mind+ cannot connect to 10.1.2.3 after I connect the UNIHIKER to my PC via USB and the UNIHIKER logo appears?<br /><img alt="../_images/image-20230327105444838.png" src="../_images/image-20230327105444838.png" />|</p></li>
+<li><p><strong>A:</strong>  <strong>1.</strong> First, open the <strong>Network Connections</strong> to check if there is an <strong>enabled unrecognized Remote NDIS network</strong>. If it shows <strong>Disabled</strong> or does not exist, <strong>check if the USB cable is directly plugged into the computer’s USB port without using any extension cables or docking station connectors</strong>.<br><img alt="image-20230327105459565" src="../_images/image-20230327105459565.png" /><br />2. <strong>If the wiring is correct and the UNIHIKER has done booting, open the Device Manager to check</strong> if there is an unknown device named “unihiker” with a yellow exclamation mark. <strong>If so, it means that the current system lacks the relevant driver and you need to install it manually.</strong> Installation method:<br><strong>a.</strong> <a class="reference external" href="https://img.dfrobot.com.cn/wiki/none/3bea578f7062b725bbde9f383d8fbb16.zip">[Download the driver package]</a> and unzip it to the desktop.<br><strong>b.</strong> Double-click on “unihiker” in the Device Manager, click <strong>Update driver</strong>, select <strong>Browse my computer for driver software</strong>, click <strong>Browse</strong>, and select the driver package folder that is downloaded and unzipped to the desktop. Then click <strong>Next</strong>, at this time a prompt may appear, just click <strong>Install this driver software anyway</strong>, and wait for the installation to complete. When the prompt <strong>Windows has successfully updated your driver software</strong> appears, it indicates that the installation was successful.<br><strong>c.</strong> Replug the UNIHIKER, and you will see an <strong>RNDIS device</strong> under <strong>Network Adapters</strong> in the Device Manager after the UNIHIKER is rebooted. When you open the <strong>Network Connections</strong>, you will see an <strong>RNDIS</strong> device. At this point, you can access 10.1.2.3 normally. If the connection still fails, please let us know.<br><img alt="image-20230327105625121" src="../_images/image-20230327105625121.png" /><br><br></p></li>
+</ul>
+<hr class="docutils" />
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>What should I do if I cannot open the UNIHIKER Local Webpage on my browser or if it gets blocked?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Check the browser kernel mode, select <strong>Extreme mode</strong>, or try it on the Chrome browser. <br/>If the network in the computer room is shut down, you need to add the website address <code>10.1.2.3:80</code> to the white list.</td>
+</tr>
+</tbody>
+</table></section>
+<section id="how-to-update-the-system-time-if-the-siot-time-is-incorrect">
+<h2>|- How to update the system time if the SIOT time is incorrect<a class="headerlink" href="#how-to-update-the-system-time-if-the-siot-time-is-incorrect" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>Why the time for SIOT data is not the current time? How to update the system time?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>UNIHIKER is equivalent to a computer with a Linux system, so it will automatically adjust the time after connecting to the network.</td>
+</tr>
+</tbody>
+</table></section>
+<section id="how-to-shut-down">
+<h2>|- How to shut down<a class="headerlink" href="#how-to-shut-down" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>Do I need to use a specific command to shut down UNIHIKER?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can simply disconnect the power to shut down UNIHIKER.</td>
+</tr>
+</tbody>
+</table></section>
+<section id="how-to-connect-a-bluetooth-speaker">
+<h2>|- How to connect a Bluetooth speaker<a class="headerlink" href="#how-to-connect-a-bluetooth-speaker" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How to connect a Bluetooth speaker to UNIHIKER?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Please refer to the tutorial: <a href="https://mc.dfrobot.com.cn/thread-313366-1-1.html">click here</a></td>
+</tr>
+</tbody>
+</table></section>
+<section id="how-to-choose-an-expansion-board-for-unihiker">
+<h2>|- How to choose an expansion board for UNIHIKER<a class="headerlink" href="#how-to-choose-an-expansion-board-for-unihiker" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>What expansion boards can be used with UNIHIKER?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>The UNIHIKER's pins are compatible with micro:bit, so you can use micro:bit expansion boards with it. (Note: Please make sure that there is no mechanical conflict when using horizontal expansion boards.)</td>
+</tr>
+</tbody>
+</table></section>
+<section id="what-should-i-do-if-the-screen-is-black-white-and-i-can-t-enter-the-system">
+<h2>|- What should I do if the screen is black/white and I can’t enter the system?<a class="headerlink" href="#what-should-i-do-if-the-screen-is-black-white-and-i-can-t-enter-the-system" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>What should I do if the UNIHIKER's screen remains black after powering it on for 10s?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>1. Check the POWER and USER lights on the back of the UNIHIKER. If the POWER light is not on, it means that the board is not powered, and you need to check whether the USB port is working, try changing the USB port or the USB cable. Additionally, make sure that the UNIHIKER is directly connected to the USB port of a PC or a power bank via a USB cable without an extension cable or docking station. <br />2. If the POWER light is on, check the USER light. If the USER light is not flashing, it means that the system has not started successfully. Try replugging the USB cable. If the problem persists, try <strong>brun OS image</strong> to UNIHIKER again. </br><br />3. If the POWER light is constantly on, the USER light is flashing, but the UNIHIKER's screen is still black, try <strong>brun OS image</strong> to UNIHIKER. If the problem persists, join the UNIHIKER overseas official channel or contact the purchase channel for technical support.</td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>The sound volume is too low when playing audio files.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can adjust the system volume using the <code>alsamixer</code> command.</td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How can I adjust the screen brightness of UNIHIKER?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can use the <code>brightness xx</code> command to adjust the brightness.</td>
+</tr>
+</tbody>
+</table></section>
+<section id="how-can-i-get-the-mind-graphical-program-to-run-on-the-unihiker-after-disconnecting-it-from-my-computer">
+<h2>|- How can I get the Mind+ graphical program to run on the UNIHIKER after disconnecting it from my computer?<a class="headerlink" href="#how-can-i-get-the-mind-graphical-program-to-run-on-the-unihiker-after-disconnecting-it-from-my-computer" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How can I get the Mind+ graphical program to run on the UNIHIKER after disconnecting it from my computer?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>When you click on <strong>Run</strong> in Mind+, Mind+ will upload the generated Python codes when coding in block mode (including all contents in the <strong>File in the project</strong>) to the <strong>mindplus</strong> folder (named after the file name displayed in the top bar on Mind+) <strong>in the UNIHIKER</strong>. So you can find the corresponding project in the <strong>mindplus</strong> folder in the UNIHIKER's <strong>Home menu</strong>. The <strong>.cache_file.py</strong> is the program generated from the blocks.</td>
+</tr>
+</tbody>
+</table><p><br> <img alt="image-20230327105703457" src="../_images/image-20230327105703457.png" /></p>
+</section>
+<section id="how-can-i-upload-resource-files-such-as-images-required-for-my-program-to-unihiker">
+<h2>-How can I upload resource files (such as images) required for my program to UNIHIKER?<a class="headerlink" href="#how-can-i-upload-resource-files-such-as-images-required-for-my-program-to-unihiker" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How can I upload resource files (such as images) required for my program to UNIHIKER?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can open <strong>File System</strong> on Mind+ and simply drag and drop the required files into the <strong>File in the project</strong>. When you click <strong>Run</strong>, Mind+ will upload all files in the <strong>File in the project</strong> to the mindplus folder in UNIHIKER for execution.</td>
+</tr>
+</tbody>
+</table></section>
+<section id="id2">
+<h2>———-<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="errors-during-execution">
+<h2>2- Errors During Execution<a class="headerlink" href="#errors-during-execution" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="error-python3-can-t-open-file">
+<h2>|- Error: python3: can’t open file…<a class="headerlink" href="#error-python3-can-t-open-file" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>The UNIHIKER automatically runs a program after being powered on for 5s or reports a "can't open file" error?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>There is an <strong>Auto boot</strong> function in the <strong>Service Toggle</strong>. If it is enabled, then UNIHIKER will automatically run the program that was run last time when powered on. If the program set to automatically start on boot is deleted, an error such as <code>python3: cannot open xxxx.py</code> or <code>python3: can't open file '/root/xxx':[Errno 2] No such file or directory</code> will be reported at startup. At this time, simply run any program in the <strong>Run Programs</strong>, or disable the <strong>Auto boot</strong> function.</td>
+</tr>
+</tbody>
+</table></section>
+<section id="installing-python-library-failed-warning-retrying-errno-3">
+<h2>|- Installing Python library failed, Warning: Retrying…[Errno -3]<a class="headerlink" href="#installing-python-library-failed-warning-retrying-errno-3" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>What should I do when the warning "WARNING: Retrying... [Errno -3]" appears while installing a library on UNIHIKER? <br/><img alt="image-202303009" src="faq-en.assets/77260282bd6fbbf4986588e47b3df652.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>This indicates that UNIHIKER is not connected to the network. Please connect it to the network first. If the error persists after connecting to the network, try switching the Python source or changing the WiFi.</td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>What should I do if the Python code cannot be stopped after running?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can use the Ctrl+\ in the terminal to forcefully kill the process, or long-press the Home button on UNIHIKER for over 5s to terminate all Python programs.</td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How to use OpenCV to scale up or down the image captured by cameras and display it on the UNIHIKER screen？ And how to rotate the camera image to display it horizontally?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td><a href="https://mc.dfrobot.com.cn/thread-312867-1-1.html">Please refer to the tutorial</a></td>
+</tr>
+</tbody>
+</table></section>
+<hr class="docutils" />
+<section id="error-nonetype-object-has-no-attribute-boardname">
+<h2>|-Error: ‘NoneType’ object has no attribute ‘boardname’<a class="headerlink" href="#error-nonetype-object-has-no-attribute-boardname" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>What does it mean when the error "AttributeError: 'NoneType' object has no attribute 'boardname'" is reported while running a program in Mind+?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>That means the pinping initialization block is missing. You need to load the pinpong initialization function and initialize pinpong before using a sensor.<br><br /></td>
+</tr>
+</tbody>
+</table><p><img alt="image-20230327105725009" src="../_images/image-20230327105725009.png" />
+<img alt="image-20230327105734081" src="../_images/image-20230327105734081.png" /></p>
+</section>
+<hr class="docutils" />
+<section id="error-firmware-version-self-boardname-keyerror">
+<h2>|-Error: firmware_version[self.boardname]:KeyError:<a class="headerlink" href="#error-firmware-version-self-boardname-keyerror" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Q:</strong>  What does the error “if (major,minor) != firmware_version[self.boardname]:KeyError: ‘’mean?<br><br /><img alt="image-20230327105807055" src="../_images/image-20230327105807055.png" /></p></li>
+<li><p><strong>A:</strong>   That means no main controller is detected. Please check if the main controller is connected properly.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="error-runtimeerror-analog-map-retrieval-time-out-or-the-readings-from-onboard-components-all-0">
+<h2>|-Error: RuntimeError: Analog map retrieval time out. or the readings from onboard components all 0<a class="headerlink" href="#error-runtimeerror-analog-map-retrieval-time-out-or-the-readings-from-onboard-components-all-0" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Q:</strong> What should I do when the error message “RuntimeError: Analog map retrieval time out” appears or the readings from onboard components are all 0.?<br>
+<img alt="image-20230327105820448" src="../_images/image-20230327105820448.png" /> <br> or<br /><br /><img alt="image-20230327105834102" src="../_images/image-20230327105834102.png" /></p></li>
+<li><p><strong>A:</strong>  You can refresh the co-processor firmware to solve the problem by referring to this tutorial: <a class="reference external" href="https://mc.dfrobot.com.cn/thread-314045-1-1.html">Click to view</a>.</p></li>
+</ul>
+<hr class="docutils" />
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How can I display flip text on the UNIHIKER screen?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can use the PIL library to achieve this. Refer to this tutorial: <a href="https://mc.dfrobot.com.cn/thread-315201-1-1.html">click to view</a></td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>How to use a third-party font library to display dot-matrix text on UNIHIKER?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>You can load the third-party font library file. Please refer to this tutorial: <a href="https://mc.dfrobot.com.cn/thread-313952-1-1.html">click to view</a></td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>The error message "IndentationError: unexpected indent" is reported during running a program.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>This error indicates that there is an indentation error. Check the code before and after the error line to see if there are any extra or missing spaces.</td>
+</tr>
+</tbody>
+</table></section>
+<section id="id3">
+<h2>———-<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h2>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="introduction-en.html" class="btn btn-neutral float-right" title="1- Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="get-started-en.html" class="btn btn-neutral float-left" title="Getting Started with UNIHIKER" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2023, ll.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

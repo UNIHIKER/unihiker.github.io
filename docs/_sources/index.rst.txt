@@ -8,16 +8,39 @@ Welcome to unihiker's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: 分类1:
+   :caption: Get Started
 
-   src/test.md
-   src/begin.md
+   src/get-started-en.md
+
+.. toctree::
+   :maxdepth: 3
+   :caption: FAQ
+
+   src/faq-en.md
 
 .. toctree::
    :maxdepth: 2
-   :caption: 分类2:
+   :caption: Introduction
 
-   src/begin2.md
+   src/introduction-en.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Advanced Features
+
+   src/networking-en.md
+   src/homemenu-en.md
+   src/webmenu-en.md
+   src/samba-en.md
+   src/vnc-en.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: OS
+
+   src/burner-en.md
+
+
 
 Indices and tables
 ==================

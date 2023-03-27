@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Burn OS Image &mdash; unihiker 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Remote Desktop (Screen Sharing)" href="vnc-en.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> unihiker
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="get-started-en.html">Getting Started with UNIHIKER</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">FAQ</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faq-en.html">UNIHIKER FAQs</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html">1- Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#features">2- Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#on-board-components">3- On-board Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#unihiker-system-framework">4- UNIHIKER System Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#specification">5- Specification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#board-overview">6- Board Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#dimension">7- Dimension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#svg-3d-file">8- SVG &amp; 3D File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-en.html#technical-discussion">9- Technical Discussion</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Advanced Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="networking-en.html">How to Connect the UNIHIKER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="homemenu-en.html">UNIHIKER Home Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webmenu-en.html">Local Webpage Service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="samba-en.html">SMB File Sharing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vnc-en.html">Remote Desktop (Screen Sharing)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">OS</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Burn OS Image</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#file-backup">1- File Backup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tool-preparation">2- Tool Preparation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#operation-steps">3- Operation Steps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#faq">FAQ</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">unihiker</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Burn OS Image</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/src/burner-en.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="burn-os-image">
+<h1>Burn OS Image<a class="headerlink" href="#burn-os-image" title="Permalink to this heading">¶</a></h1>
+<p>The UNIHIKER comes with a Linux operating system based on Debian and various built-in features, which will be upgraded from time to time.</p>
+<p>When you need to update your UNIHIKER system to the latest version or to restore a malfunctioning system, you can refer to this article to flash a new OS.</p>
+<section id="file-backup">
+<h2>1- File Backup<a class="headerlink" href="#file-backup" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>After re-flashing the OS image, all files in the UNIHIKER, including the root directory, will be cleared and cannot be restored. Therefore, it is recommended to back up the necessary files before the firmware flashing process.</p></li>
+<li><p>You can use the <strong>SMB</strong> function to copy personal files (excluding hidden files) in the root directory to your computer, and then copy them back after the OS is refreshed.</p></li>
+</ul>
+</section>
+<section id="tool-preparation">
+<h2>2- Tool Preparation<a class="headerlink" href="#tool-preparation" title="Permalink to this heading">¶</a></h2>
+<ol class="simple">
+<li><p>You need the <strong>UNIHIKER Batch Tool</strong>, a system image burning tool:</p></li>
+</ol>
+<blockquote>
+<div><p>Note: The burning tool has been upgraded to a batch burning tool, which can burn system images to 10 UNIHIKER boards at the same time. Currently, only the Windows version is available.</p>
+</div></blockquote>
+<p><strong>Windows version (no installation required, just extract and run):</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://download3.dfrobot.com.cn/unihiker/Burner/UNIHIKER_Batch_Tool_20220629_win.zip">Click to download</a></p></li>
+</ul>
+<ol class="simple">
+<li><p>Download the system img image file that needs to be flashed. After downloading and extracting it, you will get an img format image file.</p></li>
+</ol>
+<p><font color="red"> <big>Note: Please do not use the old version img image file of 0.2.8. The V1.2 or later UNIHIKER board only supports firmware versions V0.3.1 and above. The new version image file contains all the features and additional built-in libraries.</big> </font></p>
+<p><strong>Download V0.3.3 System Image</strong><br />Name: unihiker_v0.3.3.md5.42697c5ace197d675bae5f3140a5ecc4.img
+SHA1: 1393bfad3d333b85a593809ec250f8c575b9efdf</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://download3.dfrobot.com.cn/unihiker/img/unihiker_v0.3.3-20221011.img.zip">Click to download</a></p></li>
+</ul>
+<blockquote>
+<div><p><strong>OS V0.3.3 ReleaseLogs:</strong></p>
+<ul class="simple">
+<li><p>The Home menu now displays the external storage folder (media) and can run programs from SD cards or USB drives.</p></li>
+<li><p>The options in the Home menu has been numbered and the position of the hotspot mode switch has been adjusted.</p></li>
+<li><p>Support to click the logo in the terminal interface of the Home menu to return to the menu interface.</p></li>
+<li><p>Fixed the issue of USB network card not being able to be used.</p></li>
+<li><p>Optimized the occasional white screen issue that prevented the system from starting.</p></li>
+<li><p>Other bug fixes and feature optimizations.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="operation-steps">
+<h2>3- Operation Steps<a class="headerlink" href="#operation-steps" title="Permalink to this heading">¶</a></h2>
+<p>3.1- Open the UNIHIKER Batch Tool <strong>UNIHIKERBatchTool.exe</strong>, Click on the <strong>Load</strong> button and select the system image (img) file. The file path will be displayed below.</p>
+<p><img alt="image-20230327104306095" src="../_images/image-20230327104306095.png" /></p>
+<p>3.2 Enter firmware flashing mode</p>
+<ul class="simple">
+<li><p>Disconnect the UNIHIKER board from the power source (the memory card also needs to be removed)</p></li>
+<li><p>Press and hold the Home button on the board , and connect the board to your computer via USB cable. Then the board will enter the firmware flashing mode and display a white screen. The software should recognize the board as a new device.</p></li>
+<li><p>Release the Home button now. If you need to flash multiple boards at the same time, repeat the steps above.</p></li>
+</ul>
+<p><img alt="image-20230327104644437" src="../_images/image-20230327104644437.png" /></p>
+<p><img alt="image-20230327104655183" src="../_images/image-20230327104655183.png" /></p>
+<ul class="simple">
+<li><p>After the UNIHIKER board to be flashed is recognized, click on <strong>Burn</strong> to start flashing the firmware. If it is the first time connecting, the driver will be installed first.</p></li>
+<li><p>Once all the UNIHIKER boards have reached 100% in burning progress or if some burnings failed (wait for others to complete and then retry burning), click <strong>Install</strong> to install the system. The burning software will control all UNIHIKER boards to restart and install the system.</p></li>
+</ul>
+<p><strong>Start burning:</strong></p>
+<p><img alt="image-20230327104713285" src="../_images/image-20230327104713285.png" /></p>
+<p><strong>Burning Completed</strong>：</p>
+<p><img alt="image-20230327104723494" src="../_images/image-20230327104723494.png" /></p>
+<ul class="simple">
+<li><p>The system will be automatically installed on the UNIHIKER board, and it will restart several times during the process, which takes about one minute. Finally, it will stably display the UNIHIKER logo. Please do not operate or power off during this process. If an operation is performed by mistake, please re-flash the system.</p></li>
+</ul>
+<blockquote>
+<div><p>Note: During the burning process, check the output information in the lower window. If it gets stuck in a certain step and the progress does not move for more than 5 minutes, please refer to the troubleshooting section at the end of this page for solutions.</p>
+</div></blockquote>
+<p><strong>Install System:</strong></p>
+<p><img alt="image-20230327104735863" src="../_images/image-20230327104735863.png" /></p>
+<ul>
+<li><p>After the system is successfully installed and started, the UNIHIKER logo will appear. Press the <strong>HOME</strong> button to enter the <strong>HOME menu</strong>. Use the <strong>A and B</strong> buttons to move the cursor up and down, and use the <strong>HOME</strong> button to confirm. Enter to check the <strong>system information</strong>, and check whether the system version is the version of the system image that was just installed, if so, it means the system image has been successfully burned.<br><img alt="image-20230327104747223" src="../_images/image-20230327104747223.png" /></p></li>
+<li><p>After flashing the system, the touch screen needs to be re-calibrated before use. Select <strong>Calibrate touch screen</strong> in the <strong>HOME</strong> menu, and the screen will display five touch points in sequence. Click on each touch point, and the system will restart to complete the calibration.</p>
+<p><img alt="image-20230327104758587" src="../_images/image-20230327104758587.png" />
+<img alt="image-20230327104850422" src="../_images/image-20230327104850422.png" /></p>
+<p><img alt="image-20230327104850422" src="../_images/calibrate.gif" /></p>
+</li>
+</ul>
+</section>
+<section id="faq">
+<h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this heading">¶</a></h2>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>If the device to be burned is not displayed, what should I do?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>First, make sure your computer can access the UNIHIKER board correctly. When the board is powered on normally and displays the logo on the screen, you should be able to access the board's webpage menu by entering 10.1.2.3 in your web browser.<br>Then, make sure to follow the steps for burning the system image carefully. It's important to turn off the board and disconnect it from power first, then press and hold the Home button before connecting the USB cable to the PC to let the board enter system image burning mode.</td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>The system burning is complete and the progress reaches 100%, but the UNIHIKER still cannot boot up after one minute.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Maybe the system file is not fully downloaded. You can verify the SHA1 with this document or try downloading the file from a different source.</td>
+</tr>
+</tbody>
+</table><table border="1" class="docutils">
+<thead>
+<tr>
+<th>Q</th>
+<th>What should I do if I get stuck at the "Starting" or "Installing Driver" step for more than 5 minutes?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Restart the burning tool and try burning again. If it still exists, power off the board and re-enter the burning mode, then restart the burning tool to burn.</td>
+</tr>
+</tbody>
+</table><p>If you encounter any issues that cannot be solved during use, please feel free to contact us through either of the methods listed below:</p>
+<ol class="simple">
+<li><p>Send emails to our mailbox: unihiker&#64;dfrobot.com</p></li>
+<li><p>Join our UNIHIKER  channel by the link https://discord.gg/rvvfNCvBKv.</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="vnc-en.html" class="btn btn-neutral float-left" title="Remote Desktop (Screen Sharing)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2023, ll.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

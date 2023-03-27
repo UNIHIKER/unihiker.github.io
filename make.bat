@@ -33,6 +33,17 @@ if "%1" == "preview" (
     goto end
 )
 
+if "%1" == "clean" (
+echo.clean
+echo.delete docs
+rd /s /q docs
+echo.mkdir docs
+mkdir docs
+echo.clean done
+goto end
+)
+
+
 :html
 %SPHINXBUILD% -b html %SOURCEDIR% "docs" %SPHINXOPTS% %O%
 goto end
