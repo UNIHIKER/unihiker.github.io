@@ -18,6 +18,7 @@ Welcome to unihiker's documentation!
 
    src/faq-en.md
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Introduction
@@ -36,11 +37,16 @@ Welcome to unihiker's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Tutorial
+
+   src/only-board-block-tutorial-en.md
+
+
+.. toctree::
+   :maxdepth: 2
    :caption: OS
 
    src/burner-en.md
-
-
 
 Indices and tables
 ==================

@@ -1,4 +1,4 @@
-# How to Connect the UNIHIKER 
+# Multi connection methods
 The UNIHIKER is a single-board microcomputer, so other devices such as smartphones, computers, and tablets can access it for programming or data transmission through the network as long as they are on the same network.
 
 There are multiple ways to connect the UNIHIKER to the network, including USB cable, router WiFi, hotspot mode, and Ethernet cable.
