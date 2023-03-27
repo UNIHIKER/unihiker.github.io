@@ -16,6 +16,7 @@ Windows has a built-in Remote Desktop Connection, so you can use it directly wit
    ![image-20230327113256699](vnc-en.assets/image-20230327113256699.png)  
    Once connected, you can minimize the window to a floating window for easy viewing:  
    ![image-20230327113307662](vnc-en.assets/image-20230327113307662.png)
+
    You can right-click on the title bar to choose "Zoom" to enlarge the screen for better viewing:   
    ![image-20230327113315017](vnc-en.assets/image-20230327113315017.png)
 

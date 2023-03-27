@@ -80,10 +80,13 @@ Switch to **Blocks**.
 
 ### 4.1.2. FAQ
 
-| Q | How to run graphical programs on UNIHIKER? |
-| ------------ | ------------ |
-| A | Click the button **Run**, and Mind+ will upload the generated Python code when coding by blocks to the **mindplus** folder **in UNIHIKER**. So you can find the corresponding project's .cache_file.py in the folder through the Home menu and run it.|
-| |![image-20230327110224987](get-started-en.assets/image-20230327110224987.png) |
+---
+
+- **Q:**  How to run graphical programs on UNIHIKER? 
+- **A:**  Click the button **Run**, and Mind+ will upload the generated Python code when coding by blocks to the **mindplus** folder **in UNIHIKER**. So you can find the corresponding project's .cache_file.py in the folder through the Home menu and run it.
+![image-20230327110224987](get-started-en.assets/image-20230327110224987.png) 
+
+---
 
 | Q  | How to upload resource files (such as images) to UNIHIKER for use in the program? |
 | ------------ | ------------ |
@@ -112,7 +115,7 @@ while True:
 
 
 2. Connect to the UNIHIKER. If you click Run directly, the code will run on your PC's Python environment. If you want to run it on the UNIHIKER, you need to connect to it. Click the icon before the **Terminal** to activate the **Connect to Remote Terminal** menu, and then click **10.1.2.3** to connect to the UNIHIKER.
-    
+   
     > **Note: If there is a connection error**, check if the USB cable is connected correctly or refer to **FAQ** for solutions. If the issue still exists, join our UNIHIKER official channel for assistance. 
 
 ![image-20230327110301367](get-started-en.assets/image-20230327110301367.png)
