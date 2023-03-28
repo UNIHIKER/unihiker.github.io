@@ -39,7 +39,7 @@ Welcome to unihiker's documentation!
    :maxdepth: 2
    :caption: Tutorial
 
-   src/only-board-block-tutorial-en.md
+   src/blocktutorials-en.md
 
 
 .. toctree::
